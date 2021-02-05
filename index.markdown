@@ -4,11 +4,3 @@
 
 layout: posts
 ---
-<ul>
-  {% for post in site.posts %}
-    <li>
-      {{ post.tags }}
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>

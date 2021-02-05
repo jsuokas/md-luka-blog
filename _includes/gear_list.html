@@ -1,0 +1,19 @@
+<h3>Packing list</h3>
+
+<b>Backpack contents</b>
+<ul>
+  {% for backpack_content_item in include.backpack_contents %}
+  <li>
+    {{ backpack_content_item }}
+  </li>
+{% endfor %}
+</ul>
+
+<b>Clothes</b>
+<ul>
+{% for item_of_clothing in include.clothes %}
+<li>
+  {{ item_of_clothing }}
+</li>
+{% endfor %}
+</ul>

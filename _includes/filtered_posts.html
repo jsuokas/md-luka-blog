@@ -2,7 +2,7 @@
   {% for post in include.posts %}
     <li>
       {{ post.tags }}
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>

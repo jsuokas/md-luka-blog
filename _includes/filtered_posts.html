@@ -1,11 +1,18 @@
-<div class="tag-cloud">
+<h2 class="posts-tag-cloud-title">Filter posts</h2>
+<div class="posts-tag-cloud">
   {% for tag in site.tags %}
   <a href="#" data-tag="{{ tag[0] }}">{{ tag[0] }}</a>
   {% endfor %}
 </div>
 
-<div>
+<div class="posts-filtered">
   {% for post in include.posts %}
-    <a href="{{ site.baseurl }}{{ post.url }}" data-filter="{{ post.tags | join: " "}}">{{ post.title }}</a>
+  <div class="posts-filtered-item">
+    <a href="{{ site.baseurl }}{{ post.url }}" data-filter="{{ post.tags | join: " "}}">
+      <img src="{{ post.hero_image_url }}" alt="{{ post.hero_image_alt }}" />
+      {{ post.title }}
+      {{ post.tags | join: " "}}
+    </a>
+  </div>
   {% endfor %}
 </div>

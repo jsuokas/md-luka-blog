@@ -25,7 +25,7 @@ const filters = (() => {
         .map(({ element }) => element)
       : []
     
-    // TODO: handle this better so that elements are toggled twice
+    // TODO: Use shadow DOM instead with the element and actually remove them from real dom
     filterItems.forEach((element) => {
       element.style.display = 'block'
     })

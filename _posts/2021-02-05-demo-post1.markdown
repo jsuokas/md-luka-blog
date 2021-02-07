@@ -17,7 +17,7 @@ weather: Cloudy +15 C
 ---
 One part of Leave No Trace is to stay on the trail. Damaged trails can take hundreds of years to repair, especially if the soils and vegetation are new. So, although it is tempting, don’t take shortcuts and follow marked paths. This is good for the ecosystem of the area and prevents you from getting lost along the way.
 
-## Approaching the wildlife
+### Approaching the wildlife
 USA hiking brings you into contact with wildlife, from bears to moose to squirrels. Approaching or feeding wildlife is DANGEROUS and ILLEGAL while on federal or state land.
 
 Wild animals that get used to human food are more likely to approach other humans to beg, resulting in an attack. Over time, an animal’s digestive system forgets how to breakdown the food they were once accustomed to, which could lead to death. It can also lead them to forget how to “hunt” and puts them at a disadvantage in the winter months when people aren’t out on the trails.
@@ -26,18 +26,18 @@ As they say, a fed bear (or any animal) is a dead bear. Being a good steward in 
 
 ![My helpful screenshot](https://res.cloudinary.com/lukamedia/image/upload/v1612691437/stories/2019-kilimanjaro/GOPR1134_ifne8t.jpg)
 
-## Food management
+### Food management
 While not directly feeding wildlife is important, it’s equally crucial that you don’t let them accidentally find your food! To this end, National Parks often have very strict rules about storing your food overnight. Be sure to review these requirements before your trip!
 
 If you’re just heading out for a day hike, be sure you never leave your food unattended! Critters in highly trafficked areas can be very bold and will steal your lunch in a heartbeat. So be careful, and keep your food safe!
 
-## Safety
+### Safety
 
 It’s always essential to let others know where you’re going and when you expect to be back before heading out for your hike. Additionally, make sure that you bring along a basic medical pack, some form of navigation, and plenty of general gear (discussed below).
 
 Trust me; it’s always better to have everything you need than to find yourself in a pinch without a crucial piece of gear.
 
-## Apropriate gear
+### Apropriate gear
 Below you will find a list of items that you should pack in your emergency kit in your day pack. Yes, those items are more along the lines of a full day hike, but even for short hikes, stuff happens. The weather changes, you can slip and fall, you could get lost, it might get dark quicker than you expected, etc. [Link here](https://www.rei.com/learn/expert-advice/backpacking-checklist.html)
 
 Having extra snacks, an additional warm layer, your first aid kit, and a headlamp will become second nature when you hit the trails.

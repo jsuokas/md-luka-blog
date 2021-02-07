@@ -1,5 +1,7 @@
 {% include html_header.html %}
+<body onload="filters.init()">
   <h1>TRAVEL STORIES</h1>
   {% include filtered_posts.html posts=site.posts %}
   {{ content }}
+</body>
 {% include html_footer.html %}

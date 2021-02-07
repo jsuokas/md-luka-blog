@@ -47,6 +47,6 @@ Below you will find a list of items that you should pack in your emergency kit i
 
 Having extra snacks, an additional warm layer, your first aid kit, and a headlamp will become second nature when you hit the trails.
 
-> Whether you’re taking a walk in the park or a hike up a mountain, everyone can and should leave no trace.⁠
+> "Whether you’re taking a walk in the park or a hike up a mountain, everyone can and should leave no trace.⁠"
 
 {% include gear_list.html backpack_contents=page.backpack_contents clothes=page.clothes %}

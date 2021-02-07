@@ -1,21 +1,23 @@
 <div class="packing-list">
-  <h2>Packing list</h2>
+  <div class="packing-list-contents">
+    <h2>Packing list</h2>
 
-  <b>Backpack contents</b>
-  <ul>
-    {% for backpack_content_item in include.backpack_contents %}
-    <li>
-      {{ backpack_content_item }}
-    </li>
-  {% endfor %}
-  </ul>
+    <h3>Backpack contents</h3>
+    <ul class="packing-list-unit">
+      {% for backpack_content_item in include.backpack_contents %}
+      <li>
+        {{ backpack_content_item }}
+      </li>
+    {% endfor %}
+    </ul>
   
-  <b>Clothes</b>
-  <ul>
-  {% for item_of_clothing in include.clothes %}
-  <li>
-    {{ item_of_clothing }}
-  </li>
-  {% endfor %}
-  </ul>
+    <h3>Clothes</h3>
+    <ul class="packing-list-unit">
+    {% for item_of_clothing in include.clothes %}
+    <li>
+      {{ item_of_clothing }}
+    </li>
+    {% endfor %}
+    </ul>
+  </div>  
 </div>

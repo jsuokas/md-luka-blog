@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 
 html {
-  color: #000000;
+  color: #1D2B31;
   font-family: 'Roboto Slab', sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -19,13 +19,23 @@ img {
   max-width: 100%;
 }
 
+a {
+  color: #32758F;
+  text-decoration: none;
+}
+
+a:hover, a:visited {
+  color: #B9D9E5;
+  text-decoration: none;
+}
+
 h1 {
   font-family: 'Roboto Slab', sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 24px;
-  line-height: 30px;
-  padding: 24px;
+  font-size: 36px;
+  line-height: 42px;
+  padding: 48px 24px 24px 24px;
 }
 
 h2 {
@@ -34,7 +44,7 @@ h2 {
   font-weight: bold;
   font-size: 24px;
   line-height: 30px;
-  padding: 24px 0px;
+  padding: 24px;
 }
 
 h3 {
@@ -51,12 +61,43 @@ p, ul.post-summary {
   padding: 0 24px 24px 24px;
 }
 
+.hero {
+  position: relative;
+}
+
+.hero h1 {
+  color: #ffffff;
+  position: absolute;
+  top: 50%;
+  transform: translate(0%, -50%);
+  text-align: center;
+}
+
 .posts-tag-cloud-title, .posts-tag-cloud {
   text-align: center;
 }
 
 .posts-tag-cloud {
   padding: 24px;
+}
+
+.posts-tag-cloud a {
+  background: #B9D9E6;
+  border-radius: 22px;
+  color: #1D2B31;
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 22px;
+  padding: 12px;
+  min-width: 90px;
+}
+
+.posts-tag-cloud a.active {
+  background-color: #32758F;
+  color: #ffffff;
 }
 
 .posts-filtered {
@@ -66,8 +107,36 @@ p, ul.post-summary {
 }
 
 .posts-filtered-item {
-  width: 33.33%;
+  width: 50%;
   padding: 12px;
+}
+
+@media only screen and (min-width: 600px) {
+  .posts-filtered-item {
+    width: 33.33%;
+    padding: 24px;
+  }
+}
+
+.posts-filtered-item img {
+  margin-bottom: 24px;
+}
+
+.posts-filtered-item a {
+  color: #1D2B31;
+  font-family: 'Roboto Slab', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.posts-filtered-item-tags {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 30px;
 }
 
 .post-ingress {
@@ -93,9 +162,28 @@ blockquote {
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
+  padding: 48px 24px 48px 48px;
 }
 
 .packing-list {
   background-color: #F2F2F2;
   padding: 24px;
+}
+
+.packing-list-contents {
+  margin: 0 auto;
+  max-width: 350px;
+}
+
+.packing-list ul {
+  font-family: 'Roboto Slab', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  padding: 0 24px 48px 24px;
+}
+
+.packing-list ul li {
+  padding: 6px 0;
 }

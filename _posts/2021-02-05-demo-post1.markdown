@@ -4,7 +4,7 @@ title:  "Late summer camping trip to Lofoten Norway"
 description: "Every hiker should be aware of the Leave No Trace code of ethics. Whether you’re taking a walk in the park or a hike up a mountain, everyone can and should leave no trace.⁠"
 tags: food trekking
 category: food
-hero_image_url: https://res.cloudinary.com/lukamedia/image/upload/v1612691437/stories/2019-kilimanjaro/GOPR1134_ifne8t.jpg
+hero_image_url: https://res.cloudinary.com/lukamedia/image/upload/v1612690218/sample.jpg
 hero_image_alt: 'jeejee!'
 time: 27.6.–1.7.2021
 location: Lofoten, Norway
@@ -42,5 +42,5 @@ Below you will find a list of items that you should pack in your emergency kit i
 
 Having extra snacks, an additional warm layer, your first aid kit, and a headlamp will become second nature when you hit the trails.
 
-> Whether you’re taking a walk in the park or a hike up a mountain, everyone can and should leave no trace.⁠
+> "Whether you’re taking a walk in the park or a hike up a mountain, everyone can and should leave no trace.⁠"
 

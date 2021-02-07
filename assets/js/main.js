@@ -38,9 +38,12 @@ const filters = (() => {
   const onTagCloudItemClick = (e) => {
     e.preventDefault()
 
-    const tag = encodeURIComponent(e.target.dataset.tag)
+    const target = e.target
+    const tag = encodeURIComponent(target.dataset.tag)
     const urlParams = new URLSearchParams(window.location.search)
     const locationWithoutParams = window.location.href.split('?')[0]
+    
+    target.classList.toggle('active')
     
     if (urlParams.has('filters')) {
       const appliedFilters = urlParams.get('filters')

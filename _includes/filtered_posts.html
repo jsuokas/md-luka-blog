@@ -1,8 +1,11 @@
-<ul>
-  {% for post in include.posts %}
-    <li>
-      {{ post.tags }}
-      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-    </li>
+<div class="tag-cloud">
+  {% for tag in site.tags %}
+  <a href="#" data-tag="{{ tag[0] }}">{{ tag[0] }}</a>
   {% endfor %}
-</ul>
+</div>
+
+<div>
+  {% for post in include.posts %}
+    <a href="{{ site.baseurl }}{{ post.url }}" data-filter="{{ post.tags | join: " "}}">{{ post.title }}</a>
+  {% endfor %}
+</div>

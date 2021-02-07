@@ -1,24 +1,18 @@
-<!DOCTYPE html>
-<html lang="en"><head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="/assets/css/styles.css">
-  </head>
-  <body>
-    <img src="{{ page.hero_image_url }}" alt="{{ page.hero_image_alt }}" />
-    <h1>{{ page.title }}</h1>
-    <p>{{ page.description }}</p>
-    <ul>
-      <li>{{ page.time }}</li>
-      <li>{{ page.location }}</li>
-      <li>{{ page.duration }}</li>
-      <li>{{ page.distance }}</li>
-      <li>{{ page.elevation }}</li>
-      <li>{{ page.backpack_weight }}</li>
-      <li>{{ page.season }}</li>
-      <li>{{ page.weather }}</li>
-    </ul>
-    {{ content }}
-  </body>
-  </html>
+{% include html_header.html %}
+<body>
+  <img src="{{ page.hero_image_url }}" alt="{{ page.hero_image_alt }}" />
+  <h1>{{ page.title }}</h1>
+  <p>{{ page.description }}</p>
+  <ul>
+    <li>{{ page.time }}</li>
+    <li>{{ page.location }}</li>
+    <li>{{ page.duration }}</li>
+    <li>{{ page.distance }}</li>
+    <li>{{ page.elevation }}</li>
+    <li>{{ page.backpack_weight }}</li>
+    <li>{{ page.season }}</li>
+    <li>{{ page.weather }}</li>
+  </ul>
+  {{ content }}
+</body>
+{% include html_footer.html %}

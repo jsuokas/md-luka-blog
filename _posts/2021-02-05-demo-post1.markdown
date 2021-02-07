@@ -2,7 +2,7 @@
 layout: travel_story
 title:  "Late summer camping trip to Lofoten Norway"
 description: "Every hiker should be aware of the Leave No Trace code of ethics. Whether you’re taking a walk in the park or a hike up a mountain, everyone can and should leave no trace.⁠"
-tags: backpacking hiking
+tags: food trekking
 category: food
 hero_image_url: https://images.unsplash.com/photo-1472214103451-9374bd1c798e?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8cGljfGVufDB8fDB8&ixlib=rb-1.2.1&w=1000&q=80
 hero_image_alt: 'jeejee!'

@@ -1,6 +1,9 @@
 {% include html_header.html %}
 <body onload="filters.init()">
-  <img src="https://res.cloudinary.com/lukamedia/image/upload/v1612693118/hero/GOPR0616_njvbjc.jpg" alt="Bali" />
+  <div class="hero">
+    <img src="https://res.cloudinary.com/lukamedia/image/upload/v1612693118/hero/GOPR0616_njvbjc.jpg" alt="Bali" />
+    <h1>A blog full of backpacking stories, inspiration, gear reviews and ideas for outdoor meals</h1>
+  </div>
   
   {% include filtered_posts.html posts=site.posts %}
   {{ content }}

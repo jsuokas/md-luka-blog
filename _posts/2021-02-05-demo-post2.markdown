@@ -5,7 +5,7 @@ description: "Every hiker should be aware of the Leave No Trace code of ethics. 
 tags: backpacking hiking
 category: stories
 
-hero_image_url: https://images.unsplash.com/photo-1472214103451-9374bd1c798e?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8cGljfGVufDB8fDB8&ixlib=rb-1.2.1&w=1000&q=80
+hero_image_url: https://res.cloudinary.com/lukamedia/image/upload/v1612691437/stories/2019-kilimanjaro/GOPR1134_ifne8t.jpg
 hero_image_alt: 'jeejee!'
 
 time: 27.6.–1.7.2021
@@ -29,7 +29,7 @@ Wild animals that get used to human food are more likely to approach other human
 
 As they say, a fed bear (or any animal) is a dead bear. Being a good steward in the outdoors means respecting the wildlife from a safe distance.
 
-![My helpful screenshot](https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1867&q=80)
+![My helpful screenshot](https://res.cloudinary.com/lukamedia/image/upload/v1612691437/stories/2019-kilimanjaro/GOPR1134_ifne8t.jpg)
 
 ## Food management
 While not directly feeding wildlife is important, it’s equally crucial that you don’t let them accidentally find your food! To this end, National Parks often have very strict rules about storing your food overnight. Be sure to review these requirements before your trip!

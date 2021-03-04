@@ -11,6 +11,10 @@ html {
   font-size: 16px;
 }
 
+body {
+  min-width: 320px;
+}
+
 .tag-cloud {
   margin-bottom: 20px;
 }
@@ -62,15 +66,36 @@ p, ul.post-summary {
 }
 
 .hero {
-  position: relative;
+  background-repeat: no-repeat;
+  background-attachment: relative;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
 }
 
 .hero h1 {
+  font-size: 24px;
+  line-height: 32px;
   color: #ffffff;
-  position: absolute;
-  top: 50%;
-  transform: translate(0%, -50%);
   text-align: center;
+}
+
+@media only screen and (min-width: 400px) {
+  .hero h1 {
+    font-size: 36px;
+    line-height: 42px;
+  }
+}
+
+.posts-tag-cloud-title {
+  font-size: 24px;
+  line-height: 32px;
 }
 
 .posts-tag-cloud-title, .posts-tag-cloud {
@@ -78,7 +103,7 @@ p, ul.post-summary {
 }
 
 .posts-tag-cloud {
-  padding: 24px;
+  padding: 18px;
 }
 
 .posts-tag-cloud a {
@@ -93,6 +118,7 @@ p, ul.post-summary {
   line-height: 22px;
   padding: 12px;
   min-width: 90px;
+  margin: 5px 2.5px;
 }
 
 .posts-tag-cloud a.active {
@@ -107,19 +133,12 @@ p, ul.post-summary {
 }
 
 .posts-filtered-item {
-  width: 50%;
-  padding: 12px;
-}
-
-@media only screen and (min-width: 600px) {
-  .posts-filtered-item {
-    width: 33.33%;
-    padding: 24px;
-  }
+  padding-bottom: 12px;
+  width: 100%;
 }
 
 .posts-filtered-item img {
-  margin-bottom: 24px;
+  margin-bottom: 12px;
 }
 
 .posts-filtered-item a {
@@ -127,16 +146,48 @@ p, ul.post-summary {
   font-family: 'Roboto Slab', sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 24px;
-  line-height: 30px;
+  font-size: 18px;
+  line-height: 22px;
 }
 
 .posts-filtered-item-tags {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 30px;
+}
+
+@media only screen and (min-width: 400px) {
+  .posts-tag-cloud-title {
+    font-size: 36px;
+    line-height: 42px;
+  }
+
+  .posts-tag-cloud {
+    padding: 24px;
+  }
+
+  .posts-filtered-item {
+    width: 50%;
+    padding: 12px;
+  }
+
+  .posts-filtered-item a {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .posts-filtered-item-tags {
+    font-size: 14px;
+    line-height: 30px;
+  }
+}
+
+@media only screen and (min-width: 835px) {
+  .posts-filtered-item {
+    width: 33.33%;
+  }
 }
 
 .post-ingress {
@@ -153,6 +204,9 @@ ul.post-summary {
   font-weight: 500;
   font-size: 14px;
   line-height: 274.38%;
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
 }
 
 blockquote {

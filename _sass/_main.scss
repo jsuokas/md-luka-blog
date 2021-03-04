@@ -11,16 +11,12 @@ html {
   font-size: 16px;
 }
 
-body {
+html, body {
   min-width: 320px;
 }
 
 .tag-cloud {
   margin-bottom: 20px;
-}
-
-img {
-  max-width: 100%;
 }
 
 a {
@@ -77,6 +73,10 @@ p, ul.post-summary {
   justify-content: center;
   align-items: center;
   height: 600px;
+}
+
+.hero-short {
+  height: 400px;
 }
 
 .hero h1 {
